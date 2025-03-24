@@ -1,0 +1,16 @@
+[
+    {
+      "title": "Proyecto 1",
+      "description": "Una breve descripción del proyecto.",
+      "image": "img/proyecto1.png",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://ejemplo.com/proyecto1"
+    },
+    {
+      "title": "Proyecto 2",
+      "description": "Otra descripción.",
+      "image": "img/proyecto2.png",
+      "technologies": ["React", "Tailwind"],
+      "link": "https://ejemplo.com/proyecto2"
+    }
+  ]

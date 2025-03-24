@@ -1,0 +1,19 @@
+portfolio/
+│
+├── index.html          # Página de inicio
+├── projects.html       # Página de proyectos
+├── contact.html        # Página de contacto
+├── styles.css          # Estilos CSS
+├── script.js           # Lógica JavaScript
+├── img/                # Carpeta para imágenes
+│   ├── profile.jpg     # Tu foto de perfil
+│   ├── linkedin.svg    # Logo de LinkedIn
+│   ├── github.svg      # Logo de GitHub
+│   ├── twitter.svg     # Logo de Twitter
+│   ├── instagram.svg   # Logo de Instagram
+│   └── whatsapp.svg    # Logo de WhatsApp
+├── video/              # Carpeta para el video de fondo
+│   └── background.mp4  # Video de fondo
+└── languages/          # Carpeta para archivos de idiomas
+    ├── es.json         # Textos en español
+    └── en.json         # Textos en inglés

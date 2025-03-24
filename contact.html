@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardanaz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="video/background.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+            <div id="language-selector">
+                <button data-lang="es">ES</button>
+                <button data-lang="en">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contacto">
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h2 id="contact-title">Como contactarme</h2>
+                    <p id="contact-description">Si te gustaron mis proyectos y crees que podemos crear nuevos proyectos juntos en el futuro estaré encantado de saberlo, como si eres un reclutador de nuevos talentos y determinas que mi perfil encaja con la búsqueda solicitada.</p>
+                    <div class="whatsapp-option">
+                        <a href="https://wa.me/+5491127153103" target="_blank">
+                            <img src="img/Ftwpp.png" alt="WhatsApp"> También puede comunicarte vía WhatsApp.
+                        </a>
+                    </div>
+                </div>
+                <form id="contact-form" action="https://formspree.io/f/tu-codigo" method="POST">
+                    <input type="text" name="name" placeholder="Nombre" required>
+                    <input type="email" name="email" placeholder="Correo electrónico" required>
+                    <textarea name="message" placeholder="Mensaje" required style="resize: none;"></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

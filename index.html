@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jardanaz</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="video/background.mp4.mp4" type="video/mp4">
+            Tu navegador no soporta videos.
+        </video>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="projects.html">Proyectos</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+            <div id="language-selector">
+                <button data-lang="es">ES</button>
+                <button data-lang="en">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="profile-container">
+                <img src="img/ftperfil.jpg" alt="Foto de perfil" class="profile-photo">
+                <div class="profile-text">
+                    <h1 id="intro-title">Hola, soy Joaquin</h1>
+                    <p id="intro-subtitle">Diseñador Web</p>
+                    <p id="about-text">Soy Joaquin, un diseñador web apasionado por crear experiencias digitales únicas y funcionales. Me capacité en 'Coderhouse', cursos autodidactas en UDEMY, COURSERA y CODEACADEMY donde desarrollé habilidades en diseño y desarrollo web. Mi objetivo es trabajar en proyectos innovadores que me permitirán crecer profesionalmente y aportar valor a través de mi creatividad.</p>
+                    <div id="social-links">
+                        <a href="https://linkedin.com/in/tu-perfil" target="_blank"><img src="img/ftlkn.png" alt="LinkedIn"></a>
+                        <a href="https://github.com/tu-perfil" target="_blank"><img src="img/ftgit.png" alt="GitHub"></a>
+                        <a href="https://x.com/Jardanaz_" target="_blank"><img src="img/ft.png" alt="Twitter"></a>
+                        <a href="https://www.instagram.com/jardanaz_/" target="_blank"><img src="img/ig.png" alt="Instagram"></a>
+                    </div>
+                    <a href="projects.html" class="btn">Explorar mis proyectos</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
